@@ -43,7 +43,7 @@ jobs:
         uses: InformaticsMatters/trigger-ci-action@1.0.1
         with:
           ci-owner: BeerLii
-          ci-repository: flask-demo-kustomize
+          ci-repository: argocd-kustomize
           ci-ref: refs/heads/main
           ci-user: BeerLii
           ci-user-token: ${{ secrets.CI_TOKEN }}
